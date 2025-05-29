@@ -93,7 +93,6 @@ if submit:
                 
     Silakan gunakan data berikut sebagai dasar pengambilan keputusan di institusi Anda.
     """)
-    # st.image(dashboard_img)
 
 
     # =====================
@@ -128,7 +127,7 @@ if submit:
     st.markdown(f"**4. Berstatus Debtor** ({len(debtor)} mahasiswa)")
     st.dataframe(debtor, height=150)
     csv_debtor = debtor.to_csv(index=False).encode('utf-8')
-    st.download_button("⬇️ Unduh CSV - Debitur", data=csv_debtor, file_name='debtor.csv', mime='text/csv')
+    st.download_button("⬇️ Unduh CSV - Debtor", data=csv_debtor, file_name='debtor.csv', mime='text/csv')
 
     # 5. Tidak menerima beasiswa
     no_scholar = df[(df['Scholarship_holder'] == 0) & (df['Prediksi'] == 'Dropout')]
