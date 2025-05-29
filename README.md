@@ -1,9 +1,8 @@
 # zero-dropout
 
-link akses streamlit:
+link akses streamlit: <br>
 https://towards-zero-dropout.streamlit.app/
 
 
-bisa diuji coba dengan menggunakan file csv berikut pada repo ini:
-
+bisa diuji coba dengan menggunakan file csv berikut (ada di repo yang sama): <br>
 df_status_enrolled.csv
